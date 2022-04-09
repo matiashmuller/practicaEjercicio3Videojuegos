@@ -1,5 +1,5 @@
 object play {
-	method jugabilidadQueAporta() = 10
+	method jugabilidad() = 10
 	
 	method usar() {}
 }
@@ -7,7 +7,7 @@ object play {
 object portatil {
 	var bateriaBaja = false
 	
-	method jugabilidadQueAporta() {
+	method jugabilidad() {
 		if (bateriaBaja) {
 			return 1
 		} else {

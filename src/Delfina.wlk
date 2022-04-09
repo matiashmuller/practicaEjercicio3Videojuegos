@@ -12,6 +12,7 @@ object delfina {
 	}
 		
 	method jugar(videojuego) {
-		
+		nivelDiversion += videojuego.diversionQueOtorga(consolaActual)
+		consolaActual.usar()
 	}
 }
